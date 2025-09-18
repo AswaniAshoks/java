@@ -10,6 +10,7 @@ public class homework6 {
         for (int mark : marks) {
             if (mark < 35) {
                   System.out.println(" Result=Fail");
+                  break;
             }
             total += mark;
         }
