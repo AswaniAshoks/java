@@ -56,7 +56,7 @@ Ride ride;
 
       ride.rideType();
         int fare = ride.calculateFare(distance);
-        System.out.println("Total fare for " + distance + " km: ₹ " + fare);
+        System.out.println("Total fare for " + distance + " km:  " + fare);
         sc.close();
   }
 }
